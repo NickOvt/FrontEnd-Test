@@ -162,7 +162,7 @@ body {
     border-bottom: 1px solid #E9EDF4;
 }
 
-.section-form-top div:first-child {
+.section-form-top .top-inner-container {
     padding: 80px 20px 0px 20px;
 }
 
@@ -256,7 +256,7 @@ body {
     margin-bottom: 20px;
 }
 
-.calculator-form .form-group div:first-of-type {
+.calculator-form .form-group .form-group-inner {
     display: flex;
     align-items: center;
 }
