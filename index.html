@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Front-End Test</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="container">
+        <article class="left-col content-container">
+            <h1 class="content-title">Quam Tristique Condimentum</h1>
+            <p class="content-desc">
+                Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <span>Curabitur blandit</span> tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper.
+            </p>
+            <div class="content-body">
+                <div class="body-left-col">
+                    <h2 class="body-title">Fringilla Euismod Adipiscing Ipsum</h2>
+                    <p class="body-text">
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed.
+                    </p>
+                </div>
+                <img class="body-img" src="./img/image.png" alt="Painting on a shelf made out of books">
+            </div>
+            <div class="content-list-parent">
+                <ul class="content-list-main">
+                    <li class="list-el-main">Tellus Ullamcorper Inceptos</li>
+                    <li class="list-el-main">Magna Condimentum</li>
+                        <ul class="content-list-sub">
+                            <li class="list-el-sub">Mattis Tristique</li>
+                            <li class="list-el-sub">Pharetra Pellentesque Dapibus</li>
+                        </ul>
+                    <li class="list-el-main">Aenean Inceptos</li>
+                    <li class="list-el-main">Parturient Bibendum</li>
+                </ul>
+            </div>
+        </article>
+
+        <aside class="right-col calculator-container">
+            <div class="calculator">
+                <form class="calculator-form" action="index.html" method="post">
+                    <section class="section-form-top">
+                        <div class="">
+                            <h2 class="form-title">Compensation Calculator</h2>
+                            <div class="form-group">
+                                <label for="">Average Income</label>
+                                <div class="">
+                                    <input class="input-euro" type="text" name="" required><span class="euro-unit">€</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Days on sick-leave</label>
+                                <div class="">
+                                    <input class="input-days" type="text" name="" required>
+                                    <span class="days-unit">days</span>
+                                </div>
+                            </div>
+                            <label class="checkbox-container">
+                                <input class="input-checkbox" type="checkbox" name="tuberculosis-checkbox" value=""><span class="custom-checkbox"></span><span>I have tuberculosis</span>
+                            </label>
+                            <button class="form-submit-btn" type="submit" name="calculate">Calculate</button>
+                        </div>
+                    </section>
+                    <section class="section-form-middle">
+                        <div class="middle-inner-container">
+                            <div class="form-middle-left">
+                                <div class="middle-top-el">
+                                    <p>The employer compensates</p>
+                                    <p class="form-dynamic-bold"><span class="form-employer-days">0</span> days</p>
+                                </div>
+                                <div class="middle-bottom-el">
+                                    <p class="form-employer-total form-dynamic-bold"><span class="form-employer-total-value">0,00</span>€</p>
+                                    <p class="form-daily-allowance">Daily allowance
+                                        <span class="form-daily-allowance-value">00,00</span> €
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="form-middle-right">
+                                <div class="middle-top-el">
+                                    <p>Health Insurance compensates</p>
+                                    <p class="form-dynamic-bold"><span class="form-health-days">0</span> days</p>
+                                </div>
+                                <div class="middle-bottom-el">
+                                    <p class="form-health-total form-dynamic-bold"><span class="form-health-total-value">0,00</span>€</p>
+                                    <p class="form-daily-allowance">Daily allowance
+                                        <span class="form-daily-allowance-value">00,00</span> €
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section-form-bottom">
+                        <div class="bottom-inner-container">
+                            <p class="form-bottom-total-text">Compensation total for <span class="form-total-days">0</span> days (net)</p>
+                            <p class="form-total"><span class="form-total-value">00,00</span>€</p>
+                        </div>
+                    </section>
+                </form>
+            </div>
+        </aside>
+    </section>
+
+    <script src="./JS/calc.js"></script>
+</body>
+</html>
